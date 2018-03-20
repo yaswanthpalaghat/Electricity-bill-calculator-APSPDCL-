@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=yes" />
+        <meta name="msapplication-tap-highlight" content="yes" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />        <link rel="stylesheet" type="text/css" href="css/material.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>Electricity Bill Calculator</title>
+    </head>
+    <body>
+        <div class="app-title">Electricity Bill Calculator</div>
+        <div class="app-overflow"></div>
+
+        <div class="mdl-card mdl-shadow--2dp card-first">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="number" id="unit">
+                <label class="mdl-textfield__label" for="unit">Enter Total Unit</label>
+            </div>
+        </div>
+
+        <div class="mdl-card mdl-shadow--2dp card" id="display-table" style="display: none;">
+            <table>
+                <thead>
+                <tr>
+                    <th>Range</th>
+                    <th>Price/Unit</th>
+                    <th>Unit</th>
+                    <th>Bill</th>
+                </tr>
+                </thead>
+                <tbody id="display-range"></tbody>
+                <tfoot id="display-total"><tr><td></td><td></td><td>Bill</td><td>0</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td><td>G. Total</td><td>0</td></tr></tfoot>
+            </table>
+            <br>
+			
+            
+
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/material.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

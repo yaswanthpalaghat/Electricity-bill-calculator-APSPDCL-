@@ -1,0 +1,77 @@
+body{ 
+	min-height: 500px; 
+	background-color:brown;
+	/*background: #2196F3;*/
+	/*background-size: 100px;*/
+	/*position: relative;*/
+}
+.mdl-textfield{ width: 100%; }
+.app-title{
+	width: 100%;
+	position: fixed;
+	color: white;
+	font-size:40px;
+	line-height:100px;
+	padding-left: 5%;
+	height: 70px;
+	z-index: 1002;
+	background: #2196F3;
+}
+.app-overflow{
+	position: fixed;
+	z-index: 1000;
+	height: 100px;
+	background: #2196F3;
+	width: 100%;
+}
+
+.card-first{
+	top: 75px; 
+	z-index: 1001;
+	display: block;
+	min-height: 300px;
+	margin-left:5%; 
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 90px;
+	min-height: 50px; 
+	padding:10px;
+}
+
+.card{
+	display: block;
+	z-index: 1001;
+	width: 90%;
+	margin-left: 5%;
+	padding:10px;
+	margin-bottom: 20px;
+	min-height: 100px;
+}
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  /*background: #eee; */
+}
+th { 
+  background: yellow; 
+  color: green; 
+  font-weight: bold; 
+padding: 6px; 
+  height: 35px;
+  font-family:arial;
+  border-bottom: 1px solid #ccc; 
+  text-align: left; 
+}
+td{ 
+  background: cyan; 
+  padding: 6px; 
+  height: 35px;
+  border-bottom: 1px solid #ccc; 
+  text-align: left; 
+  color:blue;
+}
+
